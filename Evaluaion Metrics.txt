@@ -1,0 +1,33 @@
+=============================================
+   BERT+ResNet — VQA Metrics
+=============================================
+  Accuracy      : 0.7436  (74.36%) 
+  Precision (W) : 0.8755
+  Recall    (W) : 0.7436
+  F1-Score  (W) : 0.7259
+  Top-3 Acc     : 0.8974
+  Top-5 Acc     : 0.9231
+=============================================
+
+Overall Result: Strong VQA Performance
+
+
+╔══════════════════════════════════════
+║         Performance Evaluation Metrics      ║
+╠══════════════╦════════════╦══════════
+║ Metric       ║    LSTM    ║       GRU       ║
+╠══════════════╬════════════╬══════════
+║ BLEU-1       ║   0.0151   ║     0.0056      ║
+║ BLEU-2       ║   0.0007   ║     0.0004      ║
+║ ROUGE-L      ║   0.0218   ║     0.0092      ║
+║ METEOR       ║   0.0221   ║     0.0080      ║
+║ CIDEr        ║   0.1748   ║     0.0826      ║
+╚══════════════╩════════════╩══════════
+
+Best Overall Performance: LSTM
+
+
+The experimental results demonstrate that the LSTM model
+outperformed the GRU model across all evaluation metrics,
+particularly in CIDEr, METEOR, and ROUGE-L scores,
+indicating better caption generation quality and semantic similarity.
